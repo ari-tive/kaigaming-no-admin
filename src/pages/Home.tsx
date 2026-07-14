@@ -93,7 +93,7 @@ export default function Home() {
         </div>
 
         {/* Seamless blur transition into next section */}
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent to-kai-deeper" style={{ zIndex: 11, backdropFilter: 'blur(1px)' }} />
+        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-b from-transparent to-kai-deeper" style={{ zIndex: 11, backdropFilter: 'blur(0.5px)' }} />
       </section>
 
       {/* Stations */}
